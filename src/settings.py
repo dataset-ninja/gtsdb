@@ -106,12 +106,13 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = None
 
 CITATION_URL: Optional[str] = "https://benchmark.ini.rub.de/gtsdb_news.html"
 AUTHORS: Optional[List[str]] = ["Sebastian Houben", "Johannes Stallkamp", "Jan Salmen", "Marc Schlipsing",  "Christian Igel"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["tsd-benchmark@ini.rub.de"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["University of Bochum, Germany", "University of Copenhagen, Denmark"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["http://www.ruhr-uni-bochum.de/en", "https://www.ku.dk/english/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"traffic sign categories":["prohibitory", "mandatory", "danger", "other"], "__POSTTEXT__": "Explore them in supervisely advanced labeling tool"}
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"traffic sign categories":["prohibitory", "mandatory", "danger", "other"], "__POSTTEXT__": "Explore them in the supervisely labeling tool"}
 TAGS: Optional[List[str]] = None
 
 
@@ -159,6 +160,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
