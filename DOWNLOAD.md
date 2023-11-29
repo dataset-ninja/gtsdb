@@ -1,6 +1,6 @@
 Dataset **GTSDB** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/q/l/Yu/SLdAoAGITVEfZ3fLrnVPjbCQiWVf4FUXBcXgAWuWrw8oaC9m6MFFkdxTdBaNrQzt1gCLnyuvhaGyh9om14b5Zpw2YvRDrzDIqC3w7erDIB774UpNh6TtiFIXjCWK.tar)
+ [Download](https://www.dropbox.com/scl/fi/aa2k5zdfjam4tvyxzk9ex/gtsdb-DatasetNinja.tar?rlkey=qfrfxo2kzhjm8jfztnx0ixs8t&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
